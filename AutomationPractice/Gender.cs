@@ -1,4 +1,4 @@
-﻿namespace Homework
+﻿namespace AutomationPractice
 {
     public enum Gender
     {

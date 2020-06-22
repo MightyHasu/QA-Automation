@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoQA", "Homework\DemoQA.c
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomationPractice", "AutomationPractice\AutomationPractice.csproj", "{3D8C36B6-F0AE-4034-A404-169669D382E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSearch", "GoogleSearch\GoogleSearch.csproj", "{86598741-1A1A-485A-8FF4-51A63244D51F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleSearch", "GoogleSearch\GoogleSearch.csproj", "{86598741-1A1A-485A-8FF4-51A63244D51F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftuniPage", "SoftuniPage\SoftuniPage.csproj", "{4749FCB7-EEEE-4074-839F-C10EC8B6C4DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftuniPage", "SoftuniPage\SoftuniPage.csproj", "{4749FCB7-EEEE-4074-839F-C10EC8B6C4DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

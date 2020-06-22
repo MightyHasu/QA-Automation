@@ -13,7 +13,8 @@ namespace SoftuniPage.Tests
         public void Setup()
         {
             Initialize();
-            Driver.Navigate().GoToUrl("http://www.softuni.bg");            
+            Driver.Navigate().GoToUrl("http://www.softuni.bg");
+            Driver.Manage().Window.Maximize();
         }
 
 

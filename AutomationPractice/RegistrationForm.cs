@@ -1,4 +1,5 @@
 using AutoFixture;
+using AutomationPractice.Factories;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -7,14 +8,14 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace Homework
+namespace AutomationPractice
 {
     [TestFixture]
     public class RegistrationForm
     {
         private ChromeDriver _driver;
         private WebDriverWait _wait;
-        private RegistrationUser _user;
+        private LoginFormModel _user;
         private Fixture _fixture;
 
         [SetUp]
@@ -24,7 +25,7 @@ namespace Homework
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(2));
             _driver.Manage().Window.Maximize();
 
-            _user = UserFactory.CreateValidUser();
+            //_user = UserFactory.CreateValidUser();
             _fixture = new Fixture();
         }
 

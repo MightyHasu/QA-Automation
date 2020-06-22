@@ -11,6 +11,7 @@ namespace DemoQA.Tests
         {
             Initialize();
             Driver.Navigate().GoToUrl("http://demoqa.com");
+            Driver.Manage().Window.Maximize();
         }
 
         [Test]

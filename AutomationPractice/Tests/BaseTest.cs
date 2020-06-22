@@ -1,22 +1,23 @@
-﻿using OpenQA.Selenium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
-using System;
 using System.IO;
 using System.Reflection;
 
-namespace SoftuniPage
+namespace AutomationPractice.Tests
 {
+    [TestFixture]
     public class BaseTest
     {
-        public IWebDriver Driver { get; set; }
-
-        public Actions Builder { get; set; }
+        protected IWebDriver Driver { get; set; }
+        protected Actions Builder { get; set; }
 
         public void Initialize()
         {
             Driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
-            Builder = new Actions(Driver);            
+
+            Builder = new Actions(Driver);
         }
     }
 }
